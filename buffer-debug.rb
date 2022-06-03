@@ -2,7 +2,7 @@ buffer = []
 
 producer = Thread.start {
     while (true)
-        if (buffer.length <= 5)
+        if (buffer.length < 5)
             newnumber = rand(100)
             puts "put in number: #{newnumber}, buffer is now #{buffer << newnumber}"
             sleep(rand(0.5))

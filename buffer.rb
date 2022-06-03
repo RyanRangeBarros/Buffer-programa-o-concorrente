@@ -2,7 +2,7 @@ buffer = []
 
 producer = Thread.start {
     while (true)
-        if (buffer.length <= 5)
+        if (buffer.length < 5)
             buffer << rand(100)
             sleep(rand(0.5))
         else
