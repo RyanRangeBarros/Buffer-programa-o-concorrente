@@ -1,4 +1,5 @@
 ## Programação Concorrente
+### Equipe: João Victor Cordeiro, Lucas Vidal, Rafael Cardoso, Ryan Rangel
 
 - Codificar um buffer de tamanho 5 com somente 1 produtor e 1 consumidor, executando de forma concorrente
 - O produtor produz um número inteiro aleatório
